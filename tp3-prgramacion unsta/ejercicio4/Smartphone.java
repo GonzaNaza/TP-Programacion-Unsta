@@ -8,11 +8,11 @@ public class Smartphone extends Dispositivo implements Fotografiable, Conectable
 
     @Override
     public void tomarFotografia() {
-        System.out.println("[" + getNombre() + "] 📸 Selfie tomada con cámara frontal.");
+        System.out.println("[" + getNombre() + "]  Selfie tomada con cámara frontal.");
     }
 
     @Override
     public void conectarseAWifi(String redWifi) {
-        System.out.println("[" + getNombre() + "] 📶 WiFi conectado: " + redWifi);
+        System.out.println("[" + getNombre() + "]  WiFi conectado: " + redWifi);
     }
 }
