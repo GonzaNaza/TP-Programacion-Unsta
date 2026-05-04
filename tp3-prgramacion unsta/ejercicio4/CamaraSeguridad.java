@@ -8,6 +8,6 @@ public class CamaraSeguridad extends Dispositivo implements Fotografiable {
 
     @Override
     public void tomarFotografia() {
-        System.out.println("[" + getNombre() + "] 📸 Fotografía capturada.");
+        System.out.println("[" + getNombre() + "]  Fotografía capturada.");
     }
 }
