@@ -8,6 +8,6 @@ public class Termostato extends Dispositivo implements ConectableWifi {
 
     @Override
     public void conectarseAWifi(String redWifi) {
-        System.out.println("[" + getNombre() + "] 📶 Conectado a la red: " + redWifi);
+        System.out.println("[" + getNombre() + "]  Conectado a la red: " + redWifi);
     }
 }
